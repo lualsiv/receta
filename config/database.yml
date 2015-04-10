@@ -79,7 +79,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-#  <<: *default
-#  database: receta_production
-#  username: receta
-#  password: <%= ENV['RECETA_DATABASE_PASSWORD'] %>
+  <<: *default
+  database: receta_production
+  username: receta
+  password: <%= ENV['RECETA_DATABASE_PASSWORD'] %>
